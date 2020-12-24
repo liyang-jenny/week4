@@ -208,7 +208,7 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 3.2172vw;
+  font-size: 48px;
   color: #AA0601;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -254,7 +254,7 @@ h3 {
       -ms-flex-pack: center;
           justify-content: center;
   background: rgba(255, 255, 255, 0.5);
-  font-size: 4.5vw;
+  font-size: 48px;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -492,7 +492,11 @@ h3 {
   .copyright, .container {
     max-width: 920px; }
   .qa-content p {
-    margin: 0; } }
+    margin: 0; }
+  .classictext h4 {
+    font-size: 32px; }
+  .joint-list h3 {
+    font-size: 32px; } }
 
 @media only screen and (max-width: 768px) {
   h1 {
@@ -623,6 +627,8 @@ h3 {
     padding: 5px; }
   .joint-list h3 {
     font-size: 8.5vw; }
+  .classictext h4 {
+    font-size: 24px; }
   .copyrightText, .copyrightList {
     display: -webkit-box;
     display: -ms-flexbox;
